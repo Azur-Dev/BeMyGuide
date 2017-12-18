@@ -1,0 +1,6 @@
+{
+    "require": {
+    "surt/granada": "dev-master",
+    "slim/slim":"2.*"
+    }
+}

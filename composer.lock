@@ -1,0 +1,116 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5acebadc44cca1465d05df0f333e40e3",
+    "packages": [
+        {
+            "name": "slim/slim",
+            "version": "2.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "9224ed81ac1c412881e8d762755e3d76ebf580c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/9224ed81ac1c412881e8d762755e3d76ebf580c0",
+                "reference": "9224ed81ac1c412881e8d762755e3d76ebf580c0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "Required for HTTP cookie encryption",
+                "phpseclib/mcrypt_compat": "Polyfil for mcrypt extension"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2017-01-07T12:21:41+00:00"
+        },
+        {
+            "name": "surt/granada",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Surt/Granada.git",
+                "reference": "d9311a63b62bf5751090b1666da7b41aaaeac4a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Surt/Granada/zipball/d9311a63b62bf5751090b1666da7b41aaaeac4a4",
+                "reference": "d9311a63b62bf5751090b1666da7b41aaaeac4a4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Granada": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause",
+                "BSD-3-Clause",
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Erik Wiesenthal",
+                    "email": "erikforo@hotmail.com",
+                    "homepage": "http://www.codetogether.es",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Active Record / ORM with eager loading, lazy loading and more",
+            "homepage": "https://github.com/Surt/Granada",
+            "keywords": [
+                "Active Record",
+                "database",
+                "eager-loading",
+                "idiorm",
+                "orm",
+                "paris"
+            ],
+            "time": "2017-06-20T05:18:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "surt/granada": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
